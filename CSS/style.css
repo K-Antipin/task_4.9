@@ -1,0 +1,85 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color:rgb(183, 183, 183);
+    font-size: 26px;
+}
+
+header > a {
+    margin: 20px;
+    color: blue;
+}
+
+main {
+    height: 100vh;
+}
+
+.active {
+    background-color: blue;
+    padding: 5px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+main, footer {
+    margin: 15px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center */
+}
+
+.main > div {
+    padding: 20px;
+}
+
+.img_1, .img_2 {
+    width: 200px;
+}
+
+.img_2 {
+    padding-right: 20px;
+}
+
+.img_3 {
+    width: 300px;
+}
+
+address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+footer {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+li {
+    font-size: 20px;
+    padding-left: 28px;
+    list-style-type: none;
+    background: url(../images/check.svg) no-repeat left 3px;
+}
